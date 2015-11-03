@@ -1,45 +1,35 @@
 {
   "name": "react-hyperscript",
-  "description": "Hyperscript syntax for React.js markup",
-  "version": "2.2.0",
-  "homepage": "https://github.com/mlmorg/react-hyperscript",
+  "description": "Hyperscript syntax for React Native",
+  "version": "0.0.1",
+  "homepage": "https://github.com/reqshark/react-native-hyperscript",
   "author": {
-    "name": "Matt Morgan",
-    "email": "matt@mlmorg.com",
-    "url": "http://mlmorg.com"
+    "name": "Bent Cardan",
+    "email": "bent@nothingsatisfies.com"
   },
   "keywords": [
-    "react",
+    "react-native",
     "react.js",
     "hyperscript",
     "markup",
-    "dom"
+    "ios",
+    "android"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/mlmorg/react-hyperscript.git"
+    "url": "git://github.com/reqshark/react-native-hyperscript"
   },
   "bugs": {
-    "url": "https://github.com/mlmorg/react-hyperscript/issues"
+    "url": "https://github.com/reqshark/react-native-hyperscript/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/mlmorg/react-hyperscript/blob/master/LICENSE"
+      "url": "https://github.com/reqshark/react-native-hyperscript/blob/master/LICENSE"
     }
   ],
-  "main": "index.js",
   "dependencies": {
-    "react": ">=0.12.0 <0.15.0",
-    "virtual-hyperscript": "^4.5.0"
-  },
-  "devDependencies": {
-    "lint-trap": "^0.4.9",
-    "tape": "^3.0.0",
-    "tap-spec": "^1.0.0"
-  },
-  "scripts": {
-    "lint": "lint-trap",
-    "test": "npm run lint && node test/index.js | tap-spec"
+    "react-native": ">=0.12.0",
+    "virtual-hyperscript": "4.6"
   }
 }
